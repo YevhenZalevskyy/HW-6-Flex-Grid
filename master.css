@@ -7,3 +7,103 @@
     font-family: "Avenir";
     src: url("./fonts/AvenirLTStd-Roman.otf") format("opentype");
 }
+html, body{
+  background-color: #e5e5e5;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  margin: auto;
+}
+
+.header-nav{
+  margin-top: 62px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav{
+  margin-left: 121px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.about{
+  color: #212353;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 160%;
+}
+
+.help, .features, .signup{
+  color: #5b5d68;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  margin-left: 40px;
+}
+
+.rd{
+  color: #212353;
+}
+
+.demo{
+  display: flex;
+  background: #FFFFFF;
+  box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+  border-radius: 50px;
+  padding: 17px 29px;
+  font-weight: 800;
+  font-size: 0.888rem;
+  margin-left: 418px;
+  align-items: center;
+}
+
+.arrow1{
+  margin-left: 20px;
+}
+
+main{
+  margin-top: 143px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.main{
+  position: absolute;
+  width: 1148px;
+}
+
+.slogan{
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 110%;
+  color: #212353;
+}
+
+.info{
+  margin-top: 50px;
+  line-height: 160%;
+  color: #4b5d68;
+}
+
+.button1{
+  margin-top: 50px;
+}
+
+.more1{
+  background: #9C69E2;
+  border-radius: 50px;
+  padding: 16px 37px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.image1{
+  margin-top: 90px;
+  margin-left: 400px;
+  position: relative;
+}
