@@ -8,7 +8,7 @@
     src: url("./fonts/AvenirLTStd-Roman.otf") format("opentype");
 }
 html, body{
-  background-color: #e5e5e5;
+  background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
   font-family: Avenir;
   font-style: normal;
   font-weight: 500;
@@ -72,7 +72,7 @@ main{
 
 .main{
   position: absolute;
-  width: 1148px;
+  width: 1125px;
 }
 
 .slogan{
@@ -104,6 +104,44 @@ main{
 
 .image1{
   margin-top: 90px;
-  margin-left: 400px;
+  margin-left: 490px;
   position: relative;
+}
+
+.section1{
+  display: flex;
+  justify-content: center;
+}
+
+.section1_wrapper{
+  background: rgba(240, 99, 184, 0.15);
+  border-radius: 50px;
+  display: inline-flex;
+  margin-top: 100px;
+}
+
+.section1_heading{
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 130%;
+  margin-top: 125px;
+  margin-right: 101px;
+}
+
+.image2{
+  margin-right: 72px;
+  margin-left: 30px;
+}
+
+.section1_text{
+  margin-top: 40px;
+  margin-right: 103px;
+  margin-bottom: 125px;
+  font-family: Avenir;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 160%;
 }
