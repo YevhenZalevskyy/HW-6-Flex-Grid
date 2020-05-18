@@ -107,11 +107,6 @@ main{
   position: relative;
 }
 
-.section1{
-  display: flex;
-  justify-content: center;
-}
-
 .section1_wrapper{
   background: rgba(240, 99, 184, 0.15);
   border-radius: 50px;
@@ -170,7 +165,7 @@ main{
   margin-bottom: 150px;
 }
 
-.section2{
+section{
   display: flex;
   justify-content: center;
 }
@@ -245,4 +240,85 @@ h5{
 .image34{
   height: 201px;
   margin-right: 39px;
+}
+
+.section3{
+  border-radius: 50px;
+  background: #9C69E2;
+  padding: 109px 76px 58px 93px;
+  margin-bottom: 150px;
+}
+
+.testimonials_head{
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 130%;
+  color: #fff;
+  letter-spacing: 0.05em;
+}
+
+.testimonials_blog{
+  background: #fff;
+  box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
+  border-radius: 20px;
+  padding-top: 60px;
+  padding-left: 103px;
+  margin-top: 88px;
+  display: flex;
+}
+
+.testimonials_foot{
+  margin-top: 58px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.face{
+  margin-bottom: 180px;
+}
+
+.name{
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 160%;
+  margin-top: 20px;
+  margin-left: 44px;
+  color: #212353;
+}
+
+.site{
+  margin-left: 44px;
+  margin-bottom: 19px;
+  margin-top: 6px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #9C69E2;
+}
+
+.blog_text{
+  margin-left: 44px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 180%;
+  color: #4B5D68;
+  margin-right: 130px;
+}
+
+.arrow2{
+  margin-right: 20px;
+}
+
+.line{
+  background: #9C69E2;
+  opacity: 0.2;
+  height: 2px;
+  margin-bottom: 100px;
 }
