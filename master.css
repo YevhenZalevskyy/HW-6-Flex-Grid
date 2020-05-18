@@ -67,11 +67,12 @@ main{
   margin-top: 143px;
   display: flex;
   justify-content: space-around;
+  padding-right: 580px
 }
 
 .main{
   position: absolute;
-  width: 1125px;
+
 }
 
 .slogan{
@@ -89,21 +90,18 @@ main{
   color: #4b5d68;
 }
 
-.button1{
-  margin-top: 50px;
-}
-
 .more1{
   background: #9C69E2;
   border-radius: 50px;
   padding: 16px 37px;
   color: #fff;
-  cursor: pointer;
+  margin-top: 50px;
+  width: 95px;
 }
 
 .image1{
   margin-top: 90px;
-  margin-left: 490px;
+  margin-left: 1020px;
   position: relative;
 }
 
@@ -321,4 +319,153 @@ h5{
   opacity: 0.2;
   height: 2px;
   margin-bottom: 100px;
+}
+
+.pre_footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 150px;
+}
+
+.pf_right{
+  display: flex;
+  justify-content: center;
+  margin-left: 370px;
+}
+
+.demo1{
+  display: flex;
+  background: #FFFFFF;
+  box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+  border-radius: 50px;
+  padding: 17px 29px;
+  font-weight: 800;
+  font-size: 0.888rem;
+  margin-left: 30px;
+}
+
+.lm2{
+  background: #F063B8;
+  border-radius: 50px;
+  padding: 16px 37px;
+  color: #fff;
+}
+
+.pf_l_h4{
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 130%;
+  color: #212353;
+}
+
+.pf_l_p{
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  color: #4B5D68;
+  margin-top: 20px;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.foot_head1{
+  display: flex;
+  align-items: center;
+}
+
+.dw{
+  margin-left: 20px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 160%;
+  color: #212353;
+}
+
+.foot_body11{
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 180%;
+  color: #212353;
+  margin-top: 65px;
+}
+
+.foot_body12{
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 180%;
+  color: #212353;
+  margin-top: 10px;
+  margin-bottom: 118px;
+}
+
+.foot_end{
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 180%;
+  color: #212353;
+  margin-bottom: 96px;
+}
+
+.foot_head3, .foot_head2, .foot_head4{
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 160%;
+  color: #212353;
+  margin-top: 10px;
+}
+
+.foot2{
+  margin-left: 250px;
+  margin-right: 160px;
+}
+
+.foot4{
+  margin-left: 160px;
+}
+
+.foot_body2, .foot_body3{
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 250%;
+  color: #212353;
+  margin-top: 40px;
+}
+
+.foot_body4{
+  margin-top: 40px;
+}
+
+.fb, .tw{
+  margin-right: 14px;
+}
+
+.talk{
+  position: fixed;
+  bottom: 91px;
+  right: 243px;
 }
