@@ -57,7 +57,6 @@ html, body{
   font-weight: 800;
   font-size: 0.888rem;
   margin-left: 418px;
-  align-items: center;
 }
 
 .arrow1{
@@ -128,6 +127,7 @@ main{
   line-height: 130%;
   margin-top: 125px;
   margin-right: 101px;
+  color: #212353;
 }
 
 .image2{
@@ -140,8 +140,109 @@ main{
   margin-right: 103px;
   margin-bottom: 125px;
   font-family: Avenir;
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 160%;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  color: #4B5D68;
+}
+
+.features_head{
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 130%;
+  color: #212353;
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+
+.features_text{
+  text-align: center;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  color: #4B5D68;
+  margin-bottom: 150px;
+}
+
+.section2{
+  display: flex;
+  justify-content: center;
+}
+
+.s21, .s22, .s23, .s24{
+  display: flex;
+  margin-bottom: 105px;
+}
+
+.s23{
+  margin-right: 60px;
+}
+
+.s21{
+  margin-right: 50px;
+}
+
+h5{
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 130%;
+  color: #212353;
+}
+
+.p21, .p22, .p23, .p24{
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  color: #4B5D68;
+  margin-top: 20px;
+  height: 160px;
+}
+
+.lm{
+  margin-top: 20px;
+  display: flex;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 160%;
+  letter-spacing: 0.005em;
+}
+
+.lm_text{
+  margin-bottom: 5px;
+}
+
+.lm_arrow1{
+  margin-left: 20px;
+}
+
+.image31{
+  height: 211px;
+  margin-right: 39px;
+}
+
+.image32{
+  height: 185px;
+  margin-right: 33px;
+}
+
+.image33{
+  height: 181px;
+  margin-right: 25px;
+}
+
+.image34{
+  height: 201px;
+  margin-right: 39px;
 }
